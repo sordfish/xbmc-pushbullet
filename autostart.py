@@ -32,7 +32,7 @@ def on_open(ws):
 
 if __name__ == "__main__":
 	websocket.enableTrace(True)
-	ws = websocket.WebSocketApp("wss://stream.pushbullet.com/websocket/nByr2r79bvKidz5vBMt6UaCyslCOQxI3",
+	ws = websocket.WebSocketApp("wss://stream.pushbullet.com/websocket/"+userapikey,
 							  on_message = on_message,
 							  on_error = on_error,
 							  on_close = on_close)
