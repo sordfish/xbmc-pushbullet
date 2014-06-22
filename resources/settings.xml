@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="51000">
+		<setting id="apikey" type="text" label="51001" default="Enter Your Api Key Here" />
+	</category>
+
+</settings>

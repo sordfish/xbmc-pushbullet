@@ -1,0 +1,2 @@
+[B]0.1[/B]
+- Initial Release - this is my first xbmc plugin, tested on xbmc for boxee.

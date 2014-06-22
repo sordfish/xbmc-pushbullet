@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.pushbullet"
+       name="Pushbullet Notification Mirror"
+       version="0.1"
+       provider-name="Arran Short http://gplus.to/ArranShort">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="autostart.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Pushbullet Notification Mirror for Xbmc</summary>
+    <description lang="en">Connects to Pushbullet's websocket stream to mirror notifications on xbmc.
+
+	It uses the following Python modules:
+
+	websocket-client https://pypi.python.org/pypi/websocket-client/
+	six https://pypi.python.org/pypi/six
+	backports.ssl_match_hostname https://pypi.python.org/pypi/backports.ssl_match_hostname</description>
+    <disclaimer lang="en">GPL Licence. logo is copyright of PushBullet Inc</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
